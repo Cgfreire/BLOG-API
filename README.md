@@ -1,2 +1,2 @@
-# BLOG-API
-Projeto desenvolvido para o BLOG de Posts do Projeto Integrador IV da Instituição UNISALES
+# API-CIASC
+Desenvolvendo API em JAVA para Projeto Integrador da Instituição Unisales 
