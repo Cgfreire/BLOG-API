@@ -33,7 +33,7 @@ public class PostController {
     public Post atualiza(@PathVariable(value = "id") Long postId, @RequestBody Post novo_post) {
         Post postExistente = postRepository.findById(postId)
             .orElseThrow(() -> new RuntimeException("Post não encontrado com o ID: " + postId));
-        postExistente.setNome(novo_post.getNome());
+        postExistente.setConteudo(novo_post.getConteudo());
         return postRepository.save(postExistente);
 }
 
